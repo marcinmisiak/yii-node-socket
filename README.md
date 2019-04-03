@@ -80,6 +80,7 @@ Yii configuration<br>
 		    'sessionVarName' => 'PHPSESSID',
 		    'port' => 3001,
 		    'socketLogFile' => '/var/log/node-socket.log',
+		    'protocol' => 'https', // for elefhant http or https 
 		],
 ```
 > Notice: ***host*** should be a domain name like in you virtual host configuration or server ip address if you request page using ip address
